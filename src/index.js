@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import Shelf from './components/Shelf';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Shelf></Shelf>, document.getElementById('root'));
 registerServiceWorker();
