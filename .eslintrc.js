@@ -14,6 +14,13 @@ module.exports = {
       ],
       "rules": {
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-        "linebreak-style": ["error", "windows"]
+        "linebreak-style": ["error", "windows"],
+        "react/sort-prop-types": [1, {
+            "callbacksLast": true,
+            "ignoreCase": false,
+            "requiredFirst": true,
+            "sortShapeProp": true,
+            "noSortAlphabetically": false
+          }]
       }
 };
