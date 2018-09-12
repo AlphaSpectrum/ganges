@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../css/styles.css';
 
-const Shelf = ({ children }) => (
+const Shelf = () => (
   <div className="flex-container">
     <div className="flex-container-inner" style={{ background: 'red', alignSelf: 'center' }}>1</div>
     <div className="flex-container-inner">
