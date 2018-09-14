@@ -16,6 +16,10 @@ class Shelf extends React.Component {
     };
   }
 
+  componentDidMount() {
+
+  }
+
   render() {
     return (
       <Card>
@@ -39,8 +43,8 @@ class Shelf extends React.Component {
 }
 
 Shelf.defaultProps = {
-  maxWidth: 600,
-  minHeight: 200,
+  featuredIconId: PropTypes.string.isRequired,
+  featuredBodyId: PropTypes.string.isRequired,
 };
 
 export default Shelf;
