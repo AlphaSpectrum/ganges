@@ -44,7 +44,7 @@ class Shelf extends React.Component {
           <Column breakpoint="sm" size={4} styles={{ margin: '0px', padding: '0px' }}>
             <CardBody>
               <div id={featuredIconId} className="featured text-na-dark-blue" style={{ margin: '0px', padding: adjustedPadding, textAlign: 'center' }}>
-                <span>SV</span>
+                <span>{iconText}</span>
               </div>
             </CardBody>
           </Column>
