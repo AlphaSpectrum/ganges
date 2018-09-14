@@ -1,13 +1,8 @@
 .featured {
     font-size: 60px;
     font-weight: bold;
+    line-height: 1.8;
     /*Dark blue: #294374, Blue: #106dba*/
-    /*width: 50%;
-  margin: auto;
-  padding: 5px;
-  border: 1px solid #294374;
-  border-radius: 18px;
-  background:  #294374;*/
 }
 
 .text-na-dark-blue {
@@ -16,6 +11,10 @@
 
 .text-na-blue {
     color: #106dba;
+}
+
+.background-na-blue {
+    background:  #106dba;
 }
 
 .shelf {

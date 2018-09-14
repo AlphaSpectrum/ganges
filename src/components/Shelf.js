@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import '../css/styles.css';
+import '../css/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from './Card';
 import CardTitle from './CardTitle';
@@ -38,18 +38,22 @@ class Shelf extends React.Component {
     } = this.state;
     return (
       <Card>
-        <CardBody>
-          <Row>
-            <Column breakpoint="sm" size={6}>
-              <p id={featuredIconId} className="featured" style={{ margin: '0px', padding: adjustedPadding, textAlign: 'center' }}>Test</p>
-            </Column>
-            <Column breakpoint="sm" size={6}>
+        <Row styles={{ margin: '0px' }}>
+          <Column breakpoint="sm" size={6} styles={{ margin: '0px', padding: '0px' }}>
+            <CardBody>
+              <div id={featuredIconId} className="featured text-na-dark-blue" style={{ margin: '0px', padding: adjustedPadding, textAlign: 'center' }}>
+                <span>SV</span>
+              </div>
+            </CardBody>
+          </Column>
+          <Column breakpoint="sm" size={6}>
+            <CardBody>
               <CardTitle>StrongView Title</CardTitle>
               <CardText>{'Some quick example text to build on the card title and make up the bulk of the card\'s content.'}</CardText>
               <Button className="btn-outline-dark">Learn more</Button>
-            </Column>
-          </Row>
-        </CardBody>
+            </CardBody>
+          </Column>
+        </Row>
       </Card>
     );
   }
