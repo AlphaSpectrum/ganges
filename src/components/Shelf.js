@@ -41,14 +41,14 @@ class Shelf extends React.Component {
     return (
       <Card>
         <Row styles={{ margin: '0px' }}>
-          <Column breakpoint="sm" size={4} styles={{ margin: '0px', padding: '0px' }}>
+          <Column breakpoint="lg" size={4} styles={{ margin: '0px', padding: '0px' }}>
             <CardBody>
               <div id={featuredIconId} className="featured text-na-dark-blue" style={{ margin: '0px', padding: adjustedPadding, textAlign: 'center' }}>
                 <span>{iconText}</span>
               </div>
             </CardBody>
           </Column>
-          <Column breakpoint="sm" size={6}>
+          <Column breakpoint="lg" size={6}>
             <CardBody>
               <CardTitle>StrongView Title</CardTitle>
               <CardText>{children}</CardText>

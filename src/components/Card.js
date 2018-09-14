@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Card = ({ children }) => (
-  <div className="card">
+  <div className="card m-2">
     {children}
   </div>
 );
