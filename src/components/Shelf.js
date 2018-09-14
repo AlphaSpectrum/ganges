@@ -31,6 +31,7 @@ class Shelf extends React.Component {
 
   render() {
     const {
+      title,
       iconText,
       children,
       featuredIconId,
@@ -50,7 +51,7 @@ class Shelf extends React.Component {
           </Column>
           <Column breakpoint="lg" size={8}>
             <CardBody>
-              <CardTitle>StrongView Title</CardTitle>
+              <CardTitle>{title}</CardTitle>
               <CardText>{children}</CardText>
               <Button className="btn-outline-dark">Learn more</Button>
             </CardBody>
@@ -65,9 +66,11 @@ Shelf.propTypes = {
   children: PropTypes.node.isRequired,
   featuredIconId: PropTypes.string.isRequired,
   iconText: PropTypes.string,
+  title: PropTypes.string,
 };
 
 Shelf.defaultProps = {
   iconText: '',
+  title: '',
 };
 export default Shelf;

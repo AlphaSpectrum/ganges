@@ -9,11 +9,11 @@ import Column from './components/Column';
 ReactDOM.render(
     <Row>
         <Column size={4}>
-            <Shelf iconText='SV' featuredIconId='iconId' featuredBodyId='bodyId'>Children</Shelf>
+            <Shelf title='StrongView Title' iconText='SV' featuredIconId='iconId' featuredBodyId='bodyId'>Children</Shelf>
         </Column> <Column size={4}>
-            <Shelf iconText='LM' featuredIconId='iconId' featuredBodyId='bodyId'>Children</Shelf>
+            <Shelf title='ListManager Title' iconText='LM' featuredIconId='iconId' featuredBodyId='bodyId'>Children</Shelf>
         </Column> <Column size={4}>
-            <Shelf iconText='NM' featuredIconId='iconId' featuredBodyId='bodyId'>Children</Shelf>
+            <Shelf title='NextMail Title' iconText='NM' featuredIconId='iconId' featuredBodyId='bodyId'>Children</Shelf>
         </Column>
     </Row>,
     document.getElementById('root'),
