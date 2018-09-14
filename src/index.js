@@ -5,7 +5,7 @@ import registerServiceWorker from './registerServiceWorker';
 import Shelf from './components/Shelf';
 
 ReactDOM.render(
-   <Shelf></Shelf>,
+   <Shelf featuredIconId='iconId' featuredBodyId='bodyId'></Shelf>,
     document.getElementById('root'),
 );
 registerServiceWorker();
