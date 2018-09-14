@@ -31,6 +31,7 @@ class Shelf extends React.Component {
 
   render() {
     const {
+      iconText,
       children,
       featuredIconId,
     } = this.props;
@@ -63,6 +64,10 @@ class Shelf extends React.Component {
 Shelf.propTypes = {
   children: PropTypes.node.isRequired,
   featuredIconId: PropTypes.string.isRequired,
+  iconText: PropTypes.string,
 };
 
+Shelf.defaultProps = {
+  iconText: '',
+};
 export default Shelf;
