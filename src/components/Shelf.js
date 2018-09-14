@@ -31,6 +31,7 @@ class Shelf extends React.Component {
 
   render() {
     const {
+      children,
       featuredIconId,
     } = this.props;
     const {
@@ -39,7 +40,7 @@ class Shelf extends React.Component {
     return (
       <Card>
         <Row styles={{ margin: '0px' }}>
-          <Column breakpoint="sm" size={6} styles={{ margin: '0px', padding: '0px' }}>
+          <Column breakpoint="sm" size={4} styles={{ margin: '0px', padding: '0px' }}>
             <CardBody>
               <div id={featuredIconId} className="featured text-na-dark-blue" style={{ margin: '0px', padding: adjustedPadding, textAlign: 'center' }}>
                 <span>SV</span>
@@ -49,7 +50,7 @@ class Shelf extends React.Component {
           <Column breakpoint="sm" size={6}>
             <CardBody>
               <CardTitle>StrongView Title</CardTitle>
-              <CardText>{'Some quick example text to build on the card title and make up the bulk of the card\'s content.'}</CardText>
+              <CardText>{children}</CardText>
               <Button className="btn-outline-dark">Learn more</Button>
             </CardBody>
           </Column>
@@ -60,6 +61,7 @@ class Shelf extends React.Component {
 }
 
 Shelf.propTypes = {
+  children: PropTypes.node.isRequired,
   featuredIconId: PropTypes.string.isRequired,
 };
 
