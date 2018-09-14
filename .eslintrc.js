@@ -21,6 +21,11 @@ module.exports = {
             "requiredFirst": true,
             "sortShapeProp": true,
             "noSortAlphabetically": false
-          }]
+          }],
+          "react/forbid-prop-types": [0]
+      },
+      "env": {
+        "browser": true,
+        "node": true
       }
 };
