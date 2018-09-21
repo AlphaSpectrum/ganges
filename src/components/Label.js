@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Label = ({ htmlFor, ...otherProps }) => (
-  <label htmlFor={htmlFor} {...otherProps} />
+const Label = ({ htmlFor, children, ...otherProps }) => (
+  <label htmlFor={htmlFor} {...otherProps}>{children}</label>
 );
 
 Label.propTypes = {
