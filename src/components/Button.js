@@ -17,3 +17,5 @@ Button.propTypes = {
 Button.defaultTypes = {
   className: 'btn-primary',
 };
+
+export default Button;
