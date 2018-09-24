@@ -8,7 +8,6 @@ const Input = ({
   <input type={type === null ? '' : type} className={className} id={id} placeholder={placeholder} onChange={onChange} {...otherProps} />
 );
 
-
 Input.propTypes = {
   id: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,

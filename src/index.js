@@ -6,10 +6,12 @@ import Input from './components/Input';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <Label htmlFor={'exampleInput'}>
-  Test
-  <Input id='exampleInput' />
-  </Label>,
+  <div>
+    <Label htmlFor="exampleInput">
+      {'Label'}
+      <Input id="exampleInput" type="text" />
+    </Label>
+  </div>,
   document.getElementById('root'),
 );
 registerServiceWorker();
