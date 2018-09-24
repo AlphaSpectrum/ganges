@@ -15,14 +15,15 @@ module.exports = {
       "rules": {
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
         "linebreak-style": ["error", "windows"],
-        "react/sort-prop-types": [2, {
+        "react/sort-prop-types": [1, {
             "callbacksLast": true,
             "ignoreCase": false,
             "requiredFirst": true,
             "sortShapeProp": true,
             "noSortAlphabetically": false
           }],
-          "react/forbid-prop-types": [0]
+          "react/forbid-prop-types": [0],
+          "react/sort-comp": [1]
       },
       "env": {
         "browser": true,
