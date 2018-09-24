@@ -6,6 +6,7 @@ import Label from './components/Label';
 import Input from './components/Input';
 import Button from './components/Button';
 import Textarea from './components/Textarea';
+import Container from './components/Container';
 
 ReactDOM.render(
   <div>
