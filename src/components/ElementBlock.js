@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const ElementBlock = ({
   children,
 }) => (
-  <div className="element-block">
+  <div className="m-2 element-block bg-light">
     <div>el</div>
   </div>
 );
