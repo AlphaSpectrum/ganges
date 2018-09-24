@@ -2,20 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = ({
-  id, className, children, onClick,
+  id, color, children, onClick,
 }) => (
-  <button id={id} type="button" className={`btn ${className}`} onClick={onClick}>{children}</button>
+  <button id={id} type="button" className={`btn ${color}`} onClick={onClick}>{children}</button>
 );
 
 Button.propTypes = {
   id: PropTypes.string.isRequired,
   children: PropTypes.children,
-  className: PropTypes.string,
+  color: PropTypes.string,
   onClick: PropTypes.func,
 };
 
-Button.defaultTypes = {
-  className: 'btn-primary',
+Button.defaultProps = {
+  color: 'btn-primary',
 };
 
 export default Button;
