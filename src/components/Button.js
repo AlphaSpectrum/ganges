@@ -9,13 +9,14 @@ const Button = ({
 
 Button.propTypes = {
   id: PropTypes.string.isRequired,
-  children: PropTypes.children,
+  children: PropTypes.node,
   color: PropTypes.string,
   onClick: PropTypes.func,
 };
 
 Button.defaultProps = {
   color: 'btn-primary',
+  children: null,
 };
 
 export default Button;

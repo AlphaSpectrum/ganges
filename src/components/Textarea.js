@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Textarea = ({
-  id, rows, onChange, ...otherProps
+  id, rows, onChange,
 }) => (
-  <textarea className="form-control" id={id} rows={rows} onChange={onChange} {...otherProps} />
+  <textarea className="form-control" id={id} rows={rows} onChange={onChange} />
 );
 
 Textarea.propTypes = {

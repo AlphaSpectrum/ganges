@@ -33,7 +33,7 @@ const Sidebar = ({
 Sidebar.propTypes = {
   bgColor: PropTypes.string,
   breakpoint: PropTypes.string,
-  children: PropTypes.children,
+  children: PropTypes.node,
   size: PropTypes.number,
 };
 
@@ -41,6 +41,7 @@ Sidebar.defaultProps = {
   breakpoint: 'md',
   size: '2',
   bgColor: 'bg-light',
+  children: null,
 };
 
 export default Sidebar;
