@@ -24,7 +24,7 @@ module.exports = {
           }],
           "react/forbid-prop-types": [0],
           "react/sort-comp": [1]
-      },
+        },
       "env": {
         "browser": true,
         "node": true

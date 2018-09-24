@@ -20,8 +20,10 @@ const sidebarSticky = {
   overflow: 'auto', // Scrollable contents if viewport is shorter than content.
 };
 
-const Sidebar = ({ children, breakpoint, size }) => (
-  <nav className={`col-${breakpoint}-${size} d-none d-${breakpoint}-block bg-light`} style={sidebar}>
+const Sidebar = ({
+  children, breakpoint, size, bgColor,
+}) => (
+  <nav className={`col-${breakpoint}-${size} d-none d-${breakpoint}-block ${bgColor}`} style={sidebar}>
     <div style={sidebarSticky}>
       {children}
     </div>
@@ -29,6 +31,7 @@ const Sidebar = ({ children, breakpoint, size }) => (
 );
 
 Sidebar.propTypes = {
+  bgColor: PropTypes.string,
   breakpoint: PropTypes.string,
   children: PropTypes.children,
   size: PropTypes.number,
@@ -37,6 +40,7 @@ Sidebar.propTypes = {
 Sidebar.defaultProps = {
   breakpoint: 'md',
   size: '2',
+  bgColor: 'bg-light',
 };
 
 export default Sidebar;
