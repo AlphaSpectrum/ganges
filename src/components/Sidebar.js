@@ -30,12 +30,13 @@ const Sidebar = ({ children, breakpoint, size }) => (
 
 Sidebar.propTypes = {
   breakpoint: PropTypes.string,
+  children: PropTypes.children,
   size: PropTypes.number,
 };
 
 Sidebar.defaultProps = {
-  size: '2',
   breakpoint: 'md',
+  size: '2',
 };
 
 export default Sidebar;

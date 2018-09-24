@@ -15,7 +15,7 @@ module.exports = {
       "rules": {
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
         "linebreak-style": ["error", "windows"],
-        "react/sort-prop-types": [1, {
+        "react/sort-prop-types": [2, {
             "callbacksLast": true,
             "ignoreCase": false,
             "requiredFirst": true,
