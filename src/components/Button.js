@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Button = ({
   id, color, children, onClick,
 }) => (
-  <button id={id} type="button" className={`btn ${color}`} onClick={onClick}>{children}</button>
+  <button id={id} type="button" className={`my-2 btn ${color}`} onClick={onClick}>{children}</button>
 );
 
 Button.propTypes = {

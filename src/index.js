@@ -7,17 +7,23 @@ import Input from './components/Input';
 import Button from './components/Button';
 import Textarea from './components/Textarea';
 import Container from './components/Container';
+import Row from './components/Row';
+import Col from './components/Col';
 
 ReactDOM.render(
-  <div>
-    <Label htmlFor="exampleInput">
-      {'Label'}
-      <Input id="exampleInput" type="text" />
-    </Label>
-    <Button id='buttonExample'>Submit</Button>
-    <Textarea id='exampleTextArea'/>
-    <Container>testing...</Container>
-  </div>,
+  <Container>
+    <Row>
+      <Col size={5}>
+        <Label htmlFor="exampleInput">
+          {'Label'}
+          <Input id="exampleInput" type="text" />
+        </Label>
+        <br/>
+        <Button id="buttonExample">Submit</Button>
+        <Textarea id="exampleTextArea" />
+      </Col>
+    </Row>
+  </Container>,
   document.getElementById('root'),
 );
 
