@@ -1,0 +1,12 @@
+.element-block {
+    min-width: 150px;
+    background: red;
+    max-width: 200px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.element-block > div {
+    padding: 15px 0;
+    text-align: center;
+}
