@@ -27,6 +27,16 @@ ReactDOM.render(
 
 
 
+
+
+
+
+
+
+
+
+
+
                   Dashboard
                 <span className="sr-only">(current)</span>
               </a>
@@ -42,6 +52,16 @@ ReactDOM.render(
 
 
 
+
+
+
+
+
+
+
+
+
+
                   Orders
               </a>
             </li>
@@ -52,6 +72,16 @@ ReactDOM.render(
                   <circle cx="20" cy="21" r="1" />
                   <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
                 </svg>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -73,6 +103,16 @@ ReactDOM.render(
 
 
 
+
+
+
+
+
+
+
+
+
+
                   Customers
               </a>
             </li>
@@ -88,6 +128,16 @@ ReactDOM.render(
 
 
 
+
+
+
+
+
+
+
+
+
+
                   Reports
               </a>
             </li>
@@ -98,6 +148,16 @@ ReactDOM.render(
                   <polyline points="2 17 12 22 22 17" />
                   <polyline points="2 12 12 17 22 12" />
                 </svg>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -133,6 +193,16 @@ ReactDOM.render(
 
 
 
+
+
+
+
+
+
+
+
+
+
                   Current month
               </a>
             </li>
@@ -145,6 +215,16 @@ ReactDOM.render(
                   <line x1="16" y1="17" x2="8" y2="17" />
                   <polyline points="10 9 9 9 8 9" />
                 </svg>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -167,6 +247,16 @@ ReactDOM.render(
 
 
 
+
+
+
+
+
+
+
+
+
+
                   Social engagement
               </a>
             </li>
@@ -179,6 +269,16 @@ ReactDOM.render(
                   <line x1="16" y1="17" x2="8" y2="17" />
                   <polyline points="10 9 9 9 8 9" />
                 </svg>
+
+
+
+
+
+
+
+
+
+
 
 
 
