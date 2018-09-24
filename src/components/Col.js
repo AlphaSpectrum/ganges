@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Col = ({
   children, size, breakpoint,
-}) => (<div className={`col col-${breakpoint}-${size}`} {...otherProps}>{children}</div>);
+}) => (<div className={`col col-${breakpoint}-${size}`} >{children}</div>);
 
 Col.propTypes = {
   breakpoint: PropTypes.string,

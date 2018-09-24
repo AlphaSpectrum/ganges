@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Container = ({ children, fluid }) => {
   const withFluid = fluid === undefined || fluid === false ? '' : '-fluid';

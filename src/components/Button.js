@@ -17,6 +17,7 @@ Button.propTypes = {
 Button.defaultProps = {
   color: 'btn-primary',
   children: null,
+  onClick: null,
 };
 
 export default Button;
