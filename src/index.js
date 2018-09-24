@@ -16,6 +16,7 @@ ReactDOM.render(
     </Label>
     <Button id='buttonExample'>Submit</Button>
     <Textarea id='exampleTextArea'/>
+    <Container>testing...</Container>
   </div>,
   document.getElementById('root'),
 );
