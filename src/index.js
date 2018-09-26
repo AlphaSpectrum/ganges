@@ -13,7 +13,9 @@ import Col from './components/Col';
 import Sidebar from './components/Sidebar';
 import Block from './components/ElementBlock';
 import RangeSlider from './components/RangeSlider';
-
+import Card from './components/Card';
+import CardHeader from './components/CardHeader';
+import CardBody from './components/CardBody';
 
 ReactDOM.render(
   <Container>
@@ -21,6 +23,14 @@ ReactDOM.render(
       <Col>
         <Label htmlFor="exampleRangeSlider">Range Slider</Label>
         <RangeSlider min={1} max={5} step={1} />
+        <Card style={{width: '20rem'}}>
+          <CardHeader>
+            Test
+          </CardHeader>
+          <CardBody>
+            Body
+          </CardBody>
+        </Card>
       </Col>
     </Row>
   </Container>,
