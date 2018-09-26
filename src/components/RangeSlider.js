@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Label from './Label';
 
-const RangeSlider = ({}) => {
-    return(
-        <Label>Test</Label>
-    );
-}
+const RangeSlider = ({
+  id, max, min, step, value,
+}) => (
+  <div>
+    <input id={id} type="range" className="custom-range" min={min} max={max} step={step} value={value} />
+  </div>
+);
 
 export default RangeSlider;

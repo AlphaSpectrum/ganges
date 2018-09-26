@@ -12,12 +12,16 @@ import Row from './components/Row';
 import Col from './components/Col';
 import Sidebar from './components/Sidebar';
 import Block from './components/ElementBlock';
+import RangeSlider from './components/RangeSlider';
 
 
 ReactDOM.render(
-  <Container fluid>
+  <Container>
     <Row>
-      <Block />
+      <Col>
+        <Label htmlFor="exampleRangeSlider">Range Slider</Label>
+        <RangeSlider min={1} max={5} step={1} />
+      </Col>
     </Row>
   </Container>,
   document.getElementById('root'),
