@@ -5,7 +5,7 @@ const ElementBlock = ({
   children,
 }) => (
   <div className="m-2 element-block bg-light">
-    <div>el</div>
+    <div className="text-secondary">INPUT</div>
   </div>
 );
 

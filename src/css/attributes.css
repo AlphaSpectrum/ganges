@@ -1,4 +1,14 @@
+/**
+ * Web fonts
+ */
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+/**
+ * Styles
+ */
 .element-block {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
     min-width: 150px;
     max-width: 200px;
     width: 180px;
@@ -7,15 +17,16 @@
 }
 
 .element-block div:hover {
-    min-width: 150px;
-    max-width: 200px;
-    width: 180px;
     border-radius: 5px;
     box-shadow: 0 0 8px #b7b7b7;
-    cursor: -webkit-grab; cursor: grab;
+    cursor: -webkit-grab; 
+    cursor: grab;
 }
 
-.grab {cursor: -webkit-grab; cursor: grab;}
+.element-block div:active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+}
 
 .element-block>div {
     padding: 15px 0;
