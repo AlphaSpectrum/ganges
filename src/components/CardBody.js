@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const CardHeader = ({ children }) => (
-  <div className="card-head">
+const CardBody = ({ children }) => (
+  <div className="card-body">
     {children}
   </div>
 );
 
-CardHeader.propsType = {
+CardBody.propsType = {
   children: PropTypes.node.isRequired,
 };
 
-export default CardHeader;
+export default CardBody;
